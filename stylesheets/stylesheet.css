@@ -252,14 +252,16 @@ a {
 }
 
 .menu-link {
-position: absolute;
-font-size: 35px;
+  position: absolute;
+      top: 9px;
+      left: 9px;
+      font-size: 25px;
 }
 .menu-link:link, .menu-link:visited {
  color: #fff;
 background: rgba(0, 0, 0, .4);
 border-radius: 4px;
-padding: .2em .4em; 
+padding: .2em .4em;
 }
 .wrap {
     position: relative;
