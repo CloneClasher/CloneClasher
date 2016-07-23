@@ -266,6 +266,6 @@ padding: .2em .4em;
 }
 .panel {
     position: fixed;
-    left: -15.625em; /*left or right and the width of your navigation panel*/
-    width: 15.625em; /*should match the above value*/
+    left: -300px;
+    width: 300px;
 }
