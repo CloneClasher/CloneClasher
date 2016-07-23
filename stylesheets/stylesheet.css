@@ -270,6 +270,7 @@ padding: .2em .4em;
     z-index: 9999;
     left: -300px;
     width: 300px;
+    padding-left: 0;
 }
 .panel li {
   list-style: none;
@@ -279,4 +280,6 @@ padding: .2em .4em;
 border-bottom: 2px solid #34495D;
 padding: 16px;
 font-size: 16px;
+text-decoration: none;
+color: #fff;
 }
