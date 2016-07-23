@@ -266,6 +266,8 @@ padding: .2em .4em;
 }
 .panel {
     position: fixed;
+    background: #2C3E50;
+    z-index: 9999;
     left: -300px;
     width: 300px;
 }
