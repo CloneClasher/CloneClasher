@@ -10,7 +10,25 @@
     <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
   </head>
-  <script src="https://code.jquery.com/jquery.min.js"></script>`
+  <script src="https://code.jquery.com/jquery.min.js"></script>
+  <script src="jquery.big-slide.js"></script>
+  <a href="#menu" class="menu-link">&#9776;</a>
+  <nav id="menu" class="panel" role="navigation">
+    <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">The Ballad of El Goodo</a></li>
+        <li><a href="#">Thirteen</a></li>
+        <li><a href="#">September Gurls</a></li>
+        <li><a href="#">What's Going Ahn</a></li>
+    </ul>
+</nav>
+
+<script>
+    $(document).ready(function() {
+        $('.menu-link').bigSlide();
+    });
+</script>
+
   <body>
     <section class="page-header">
 
