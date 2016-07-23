@@ -277,5 +277,6 @@ padding: .2em .4em;
 .panel a {
   display: block;
 border-bottom: 2px solid #34495D;
-padding: 1em;
+padding: 16px;
+font-size: 16px;
 }
