@@ -271,3 +271,11 @@ padding: .2em .4em;
     left: -300px;
     width: 300px;
 }
+.panel li {
+  list-style: none;
+}
+.panel a {
+  display: block;
+border-bottom: 2px solid #34495D;
+padding: 1em;
+}
